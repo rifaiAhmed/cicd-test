@@ -50,7 +50,7 @@ jobs:
       run: |
         gcloud run deploy testcicd \
           --image=docker.io/ahmedd99/testcicd:latest \
-          --region=us-central1 \
+          --region=asia-southeast2 \
           --platform=managed \
           --allow-unauthenticated \
           --port=8080
