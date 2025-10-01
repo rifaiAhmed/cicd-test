@@ -35,7 +35,6 @@ jobs:
         push: true
         tags: ahmedd99/testcicd:latest
 
-    # ==== Deploy ke Cloud Run ====
     - name: Authenticate to Google Cloud
       uses: google-github-actions/auth@v2
       with:
