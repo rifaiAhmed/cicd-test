@@ -8,6 +8,6 @@ COPY static ./static
 
 RUN go build -o /belajar-cicd-pemula
 
-EXPOSE 8081
+EXPOSE 8080
 
 CMD ["/belajar-cicd-pemula"]

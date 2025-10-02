@@ -11,7 +11,7 @@ func main() {
 	// Ambil port dari environment variable, default 8081
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8081"
+		port = "8080"
 	}
 
 	r := gin.Default()
